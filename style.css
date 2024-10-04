@@ -1,0 +1,27 @@
+body{
+    background-color:black;
+}
+
+.container{
+    display: flex;
+    object-fit: cover;
+    gap: 10px;
+    width: 70%;
+    align-items: center;
+    height: 450px;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 10%;
+   
+
+}.container img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border:2px solid white;
+     transition: all ease-in-out 0.5s;
+     box-shadow: 10px white;
+}.container img:hover{
+    width:25%
+}
